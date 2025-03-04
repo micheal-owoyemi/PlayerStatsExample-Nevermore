@@ -87,8 +87,9 @@ function PlayerStatsExampleNevermoreServiceClient:ConstructStatsUI()
 
 					Blend.New "UIListLayout" {
 						SortOrder = Enum.SortOrder.LayoutOrder,
-						Padding = UDim.new(0, 10),
+						Padding = UDim.new(0, 20),
 					},
+					
 				},
 			}
 		}
